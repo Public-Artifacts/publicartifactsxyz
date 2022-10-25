@@ -5,6 +5,7 @@
 pre {
   margin: .5rem 0;
   padding: .5rem;
+  overflow-x: auto;
 }
 
 .post p {
@@ -16,9 +17,19 @@ pre {
 }
 
 body {
-  font-family: Montserrat, sans-serif;  
+  -webkit-font-smoothing: antialiased;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
   color: #191BA9;
   background-color:  #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  flex-basis: 10rem;
+  flex-grow: 1;
+  position: relative;
+  padding: 1rem;
 }
 
 main {
@@ -26,13 +37,6 @@ main {
   flex-wrap: wrap;
   max-width: 50rem;
   margin: 2rem auto;
-  padding: 1rem;
-}
-
-header {
-  flex-basis: 10rem;
-  flex-grow: 1;
-  position: relative;
   padding: 1rem;
 }
 
