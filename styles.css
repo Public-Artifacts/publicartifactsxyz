@@ -55,3 +55,8 @@ section h1:first-child {
 #desc {
   margin-top: 0;
 }
+
+li {
+  list-style-type: none;
+  font-weight: 1000;
+}
