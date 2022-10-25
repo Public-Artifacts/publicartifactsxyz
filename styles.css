@@ -2,20 +2,6 @@
   font-family: Montserrat; src: url('/src/Montserrat-VariableFont_wght.ttf'); 
 }
 
-pre {
-  margin: .5rem 0;
-  padding: .5rem;
-  overflow-x: auto;
-}
-
-.post p {
-  margin: .5rem 0;
-}
-
-.post h1, {
-  margin: 1rem 0;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   font-family: Montserrat, sans-serif;
