@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Montserrat; src: url('/src/Montserrat-VariableFont_wght.ttf'); 
+}
+
+body {
+  font-family: Montserrat, sans-serif;  
+  color: #191BA9;
+  background-color:  #ffffff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#logoImg {
+  width: 200px;
+}
+
+#desc {
+  margin-top: 0;
+}
