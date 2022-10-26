@@ -78,4 +78,8 @@ li {
   #logoImg {
     float: right;
   }
+
+  #legal {
+    bottom: 1rem;
+  }
 }
