@@ -10,7 +10,7 @@ body {
   color: #191BA9;
   background-color:  #ffffff;
   text-rendering: optimizeLegibility;
-
+  overflow: clip;
 }
 
 /* source | Layout with header on left for large screens and top for small screens inspired by Sidey by Ronalds Vilciņš: https://github.com/ronv/sidey */
