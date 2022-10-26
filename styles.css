@@ -1,3 +1,4 @@
+/* Montserrat typeface by Julieta Ulanovsky via Google Fonts: https://fonts.google.com/specimen/Montserrat?query=montserrat */
 @font-face {
   font-family: Montserrat; src: url('/src/Montserrat-VariableFont_wght.ttf'); 
 }
@@ -12,6 +13,7 @@ body {
 
 }
 
+/* Layout with header on left for large screens and top for small screens inspired by Sidey by Ronalds Vilciņš: https://github.com/ronv/sidey */
 header {
   flex-basis: 10rem;
   flex-grow: 1;
