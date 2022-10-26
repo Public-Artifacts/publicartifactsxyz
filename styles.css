@@ -33,7 +33,7 @@ section {
   min-width: 70%;
   display: flex;
   flex-direction: column;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 section h1:first-child {
@@ -45,6 +45,10 @@ section h1:first-child {
     height: 8rem;
     display: inline;
     padding-bottom: 0;
+  }
+
+  section {
+    padding: 1rem 0;
   }
 }
 
@@ -60,4 +64,9 @@ section h1:first-child {
 li {
   list-style-type: none;
   font-weight: 1000;
+}
+
+#legal {
+  position: absolute;
+  bottom: 2rem;
 }
