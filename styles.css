@@ -27,6 +27,8 @@ main {
   max-width: 50rem;
   margin: 2rem auto;
   padding: 1rem;
+  justify-content: space-between;
+  height: calc(100vh - 6rem);
 }
 
 section {
@@ -36,10 +38,7 @@ section {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-}
-
-section h1:first-child {
-  margin-top: 0;
+  justify-content: space-between;
 }
 
 #logoImg {
@@ -57,11 +56,16 @@ li {
 }
 
 #legal {
+  font-size: 0.7rem;
   position: absolute;
   bottom: 2rem;
 }
 
-#social img {
+#socialMobile {
+  display: none;
+}
+
+.social img {
   height: 1.5rem;
   padding-right: 0.1rem;
 }
@@ -92,7 +96,12 @@ li {
     float: right;
   }
 
-  #social {
+  #socialDesktop, #legal {
+    display: none;
+  }
+
+  #socialMobile {
+    display: inherit;
     position: absolute;
     bottom: 3.5rem;
   }
