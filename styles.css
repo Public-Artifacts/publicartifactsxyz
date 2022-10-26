@@ -83,7 +83,8 @@ li {
   main {
     margin: 0 auto;
     padding: 0.5rem;
-    height: calc(100vh - 1rem);
+    height: calc(100vh - 2rem);
+    align-content: flex-start;
   }
 
   header {
@@ -123,9 +124,5 @@ li {
 
   #socialMobile {
     display: inherit;
-  }
-
-  #legal {
-    bottom: 1rem;
   }
 }
