@@ -14,21 +14,21 @@ body {
 }
 
 /* Layout with header on left for large screens and top for small screens inspired by Sidey by Ronalds Vilciņš: https://github.com/ronv/sidey */
-header {
-  flex-basis: 10rem;
-  flex-grow: 1;
-  position: relative;
-  padding: 1rem;
-}
-
 main {
   display: flex;
   flex-wrap: wrap;
   max-width: 50rem;
   margin: 2rem auto;
   padding: 1rem;
-  justify-content: space-between;
   height: calc(100vh - 6rem);
+}
+
+header {
+  flex-basis: 10rem;
+  flex-grow: 1;
+  position: relative;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 section {
@@ -58,14 +58,23 @@ li {
 #legal {
   font-size: 0.7rem;
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
 }
 
 #socialMobile {
   display: none;
 }
 
-.social img {
+#socialDesktop {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  margin: 1rem;
+}
+
+.socialImg {
   height: 1.5rem;
   padding-right: 0.1rem;
 }
