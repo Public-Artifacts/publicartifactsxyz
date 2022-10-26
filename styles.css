@@ -75,6 +75,10 @@ li {
     padding: 1rem 0;
   }
 
+  li {
+    font-weight: 800;
+  }
+
   #logoImg {
     float: right;
   }
