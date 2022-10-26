@@ -40,18 +40,6 @@ section h1:first-child {
   margin-top: 0;
 }
 
-@media screen and (max-width: 45rem ) {
-  header {
-    height: 8rem;
-    display: inline;
-    padding-bottom: 0;
-  }
-
-  section {
-    padding: 1rem 0;
-  }
-}
-
 #logoImg {
   max-width: 100%;
   max-height: 100%;
@@ -69,4 +57,25 @@ li {
 #legal {
   position: absolute;
   bottom: 2rem;
+}
+
+@media screen and (max-width: 45rem ) {
+  main {
+    margin: 0 auto;
+  }
+
+  header {
+    height: 8rem;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  section {
+    padding: 1rem 0;
+  }
+
+  #logoImg {
+    float: right;
+  }
 }
