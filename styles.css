@@ -60,9 +60,8 @@ li {
 }
 
 #social img {
-  width: 32px;
-  height: 32px;
-  padding: 1rem;
+  height: 1.5rem;
+  padding-right: 0.1rem;
 }
 
 @media screen and (max-width: 45rem ) {
@@ -87,6 +86,11 @@ li {
 
   #logoImg {
     float: right;
+  }
+
+  #social {
+    position: absolute;
+    bottom: 3.5rem;
   }
 
   #legal {
