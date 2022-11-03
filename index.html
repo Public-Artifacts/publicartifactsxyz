@@ -18,7 +18,11 @@
     <meta name="twitter:image" content="https://publicartifacts.xyz/images/unfurl_1_1.png" />
     <script>
       document.getElementById('zero').addEventListener('click', () => {
-        document.getElementById('zeroDetail').classList.toggle('hidden');
+        if (document.getElementById('zeroDetail').style.display == '' || document.getElementById('zeroDetail').style.display == 'none') {
+          document.getElementById('zeroDetail').style.display == 'block';
+        } else {
+          document.getElementById('zeroDetail').style.display == 'none';
+        });
       }, false);
     </script>
   </head>
@@ -42,10 +46,10 @@
       <section>
         <div>
           <p id="desc">A social technology studio exploring community dynamics and public goods.</p>
-          <li id="zero">ARTIFACT 00: CODEBACKS
+          <li id="zero"><div class="title">ARTIFACT 00: CODEBACKS</div>
             <div id="zeroDetail">
               <p>An on-chain citation standard for open-source code.</p>
-              <p><<a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a></p>
+              <p><a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a></p>
             </div>
           </li>
           <li id="one">ARTIFACT 01: XIXXGXXCE BXT</li>

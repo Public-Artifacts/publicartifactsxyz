@@ -58,13 +58,6 @@ li {
   font-weight: 700;
 }
 
-li div {
-  display: none;
-  margin:0.5rem 0;
-  padding:0.5rem 0;
-  border-top:3px #191BA9 solid;
-  border-bottom:3px #191BA9 solid;
-}
 
 li p {
   font-weight:300;
@@ -79,8 +72,16 @@ li p a:hover {
   font-weight:600;
 }
 
-li#zero:hover {
-  font-weight: 1000;
+li#zero .title:hover {
+  font-weight: 850;
+}
+
+#zeroDetail {
+  display: none;
+  margin:0.5rem 0;
+  padding:0.5rem 0;
+  border-top:3px #191BA9 solid;
+  border-bottom:3px #191BA9 solid;
 }
 
 li#one {
