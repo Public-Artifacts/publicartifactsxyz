@@ -58,6 +58,31 @@ li {
   font-weight: 700;
 }
 
+li div {
+  display: none;
+  margin:0.5rem 0;
+  padding:0.5rem 0;
+  border-top:3px #191BA9 solid;
+  border-bottom:3px #191BA9 solid;
+}
+
+li p {
+  font-weight:300;
+  margin:0;
+}
+
+li p a{
+  font-variant: all-small-caps;
+}
+
+li p a:hover {
+  font-weight:600;
+}
+
+li.zero:hover {
+  font-weight: 1000;
+}
+
 li.one {
   color: #BABDF3;
 }
@@ -76,11 +101,10 @@ li.four {
 
 a {
   color: #191BA9;
-  text-decoration: none
 }
 
 p a:hover {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 li a:hover {
@@ -100,7 +124,12 @@ li a:hover {
 
 .socialImg {
   height: 1.5rem;
-  padding-right: 0.1rem;
+  padding: 0.1rem;
+}
+
+.socialImg:hover {
+  height:1.7rem;
+  padding: 0;
 }
 
 #credo {
