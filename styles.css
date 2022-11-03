@@ -79,23 +79,23 @@ li p a:hover {
   font-weight:600;
 }
 
-li.zero:hover {
+li#zero:hover {
   font-weight: 1000;
 }
 
-li.one {
+li#one {
   color: #BABDF3;
 }
 
-li.two {
+li#two {
   color: #CBCEF6;
 }
 
-li.three {
+li#three {
   color: #DCDEF9;
 }
 
-li.four {
+li#four {
   color: #EDEEFC;
 }
 

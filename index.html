@@ -17,8 +17,8 @@
     <meta name="twitter:description" value="A social technology studio exploring community dynamics and public goods." />
     <meta name="twitter:image" content="https://publicartifacts.xyz/images/unfurl_1_1.png" />
     <script>
-      document.getElementByClassName('zero').addEventListener('click', () => {
-        document.getElementByClassName('zeroDetail').classList.toggle('hidden');
+      document.getElementById('zero').addEventListener('click', () => {
+        document.getElementById('zeroDetail').classList.toggle('hidden');
       }, false);
     </script>
   </head>
@@ -42,16 +42,16 @@
       <section>
         <div>
           <p id="desc">A social technology studio exploring community dynamics and public goods.</p>
-          <li class="zero">ARTIFACT 00: CODEBACKS
-            <div class="zeroDetail">
+          <li id="zero">ARTIFACT 00: CODEBACKS
+            <div id="zeroDetail">
               <p>An on-chain citation standard for open-source code.</p>
               <p><<a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a></p>
             </div>
           </li>
-          <li class="one">ARTIFACT 01: XIXXGXXCE BXT</li>
-          <li class="two">ARTIFACT 02: XMXX FXX NXXX</li>
-          <li class="three">ARTIFACT 03: XXXXXX AS X XXRVXXX</li>
-          <li class="four">ARTIFACT 04: XXBX USXX RXXXXRXX</li>
+          <li id="one">ARTIFACT 01: XIXXGXXCE BXT</li>
+          <li id="two">ARTIFACT 02: XMXX FXX NXXX</li>
+          <li id="three">ARTIFACT 03: XXXXXX AS X XXRVXXX</li>
+          <li id="four">ARTIFACT 04: XXBX USXX RXXXXRXX</li>
           <p>Built by <a href="https://twitter.com/jasonnov" target="_blank">Jason Novack</a> and <a href="https://twitter.com/itsbdell" target="_blank">Brian Dell</a>.</p>
           <br>
           <div class="social" id="socialMobile">
