@@ -17,13 +17,15 @@
     <meta name="twitter:description" value="A social technology studio exploring community dynamics and public goods." />
     <meta name="twitter:image" content="https://publicartifacts.xyz/images/unfurl_1_1.png" />
     <script>
-      document.getElementById('zero').addEventListener('click', () => {
-        if (document.getElementById('zeroDetail').style.display == '' || document.getElementById('zeroDetail').style.display == 'none') {
-          document.getElementById('zeroDetail').style.display == 'block';
-        } else {
-          document.getElementById('zeroDetail').style.display == 'none';
-        };
-      }, false);
+      window.onload = function () {
+        document.getElementById('zero').addEventListener('click', () => {
+          if (document.getElementById('zeroDetail').style.display == '' || document.getElementById('zeroDetail').style.display == 'none') {
+            document.getElementById('zeroDetail').style.display == 'block';
+          } else {
+            document.getElementById('zeroDetail').style.display == 'none';
+          };
+        }, false);
+      };
     </script>
   </head>
   <body>
