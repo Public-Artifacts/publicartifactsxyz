@@ -1,12 +1,15 @@
 /* source |Montserrat typeface by Julieta Ulanovsky via Google Fonts: https://fonts.google.com/specimen/Montserrat?query=montserrat */
 @font-face {
-  font-family: Montserrat; src: url('/src/Montserrat-VariableFont_wght.ttf'); 
+  font-family: Montserrat; 
+  src: url('/src/Montserrat-VariableFont_wght.ttf');
+  font-weight: 100 1000; 
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   font-family: Montserrat, sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   color: #191BA9;
   background-color:  #ffffff;
   text-rendering: optimizeLegibility;
@@ -52,6 +55,35 @@ section {
 
 li {
   list-style-type: none;
+  font-weight: 700;
+}
+
+li.one {
+  color: #BABDF3;
+}
+
+li.two {
+  color: #CBCEF6;
+}
+
+li.three {
+  color: #DCDEF9;
+}
+
+li.four {
+  color: #EDEEFC;
+}
+
+a {
+  color: #191BA9;
+  text-decoration: none
+}
+
+p a:hover {
+  font-weight: 500;
+}
+
+li a:hover {
   font-weight: 1000;
 }
 
