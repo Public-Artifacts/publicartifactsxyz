@@ -72,7 +72,11 @@ li p a:hover {
   font-weight:600;
 }
 
-li#zero .title:hover {
+#zero .title {
+  cursor: pointer;
+}
+
+#zero .title:hover {
   font-weight: 850;
 }
 
