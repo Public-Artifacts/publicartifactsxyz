@@ -29,7 +29,7 @@
           };
         }, false);
 
-        document.getElementById('one').getElementsByClassName('title').addEventListener('click', () => {
+        document.getElementById('one').getElementsByClassName('title')[0].addEventListener('click', () => {
           if (document.getElementById('oneDetail').style.display == '' || document.getElementById('oneDetail').style.display == 'none') {
             document.getElementById('one').getElementsByClassName('title')[0].style.fontWeight = 850;
             document.getElementById('oneDetail').style.display = 'block';
