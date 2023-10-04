@@ -18,24 +18,24 @@
     <meta name="twitter:image" content="https://publicartifacts.xyz/images/unfurl_1_1.png" />
     <script>
       window.onload = function () {
-        document.getElementById('zero').getElementsByClassName('title').addEventListener('click', () => {
+        document.getElementById('zero').getElementsByClassName('title')[0].addEventListener('click', () => {
           if (document.getElementById('zeroDetail').style.display == '' || document.getElementById('zeroDetail').style.display == 'none') {
-            document.getElementById('zero').getElementsByClassName('title').style.fontWeight = 850;
+            document.getElementById('zero').getElementsByClassName('title')[0].style.fontWeight = 850;
             document.getElementById('zeroDetail').style.display = 'block';
             document.getElementById('oneDetail').style.display = 'none';
           } else {
-            document.getElementById('zero').getElementsByClassName('title').style.fontWeight = 700;
+            document.getElementById('zero').getElementsByClassName('title')[0].style.fontWeight = 700;
             document.getElementById('zeroDetail').style.display = 'none';
           };
         }, false);
 
         document.getElementById('one').getElementsByClassName('title').addEventListener('click', () => {
           if (document.getElementById('oneDetail').style.display == '' || document.getElementById('oneDetail').style.display == 'none') {
-            document.getElementById('one').getElementsByClassName('title').style.fontWeight = 850;
+            document.getElementById('one').getElementsByClassName('title')[0].style.fontWeight = 850;
             document.getElementById('oneDetail').style.display = 'block';
             document.getElementById('zeroDetail').style.display = 'none';
           } else {
-            document.getElementById('one').getElementsByClassName('title').style.fontWeight = 700;
+            document.getElementById('one').getElementsByClassName('title')[0].style.fontWeight = 700;
             document.getElementById('oneDetail').style.display = 'none';
           };
         }, false);
