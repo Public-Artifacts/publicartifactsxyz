@@ -26,6 +26,15 @@
           };
         }, false);
       };
+      window.onload = function () {
+        document.getElementById('one').addEventListener('click', () => {
+          if (document.getElementById('oneDetail').style.display == '' || document.getElementById('oneDetail').style.display == 'none') {
+            document.getElementById('oneDetail').style.display = 'block';
+          } else {
+            document.getElementById('oneDetail').style.display = 'none';
+          };
+        }, false);
+      };
     </script>
   </head>
   <body>
@@ -54,10 +63,15 @@
               <p><a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a> | <a href="https://etherscan.io/address/0xae033e6811854e64fbad475ee3af7c94dcd2f01b" target="_blank" >EXAMPLE</a></p>
             </div>
           </li>
-          <li id="one">ARTIFACT 01: XIXXGXXCE BXT</li>
-          <li id="two">ARTIFACT 02: XMXX FXX NXXX</li>
-          <li id="three">ARTIFACT 03: XXXXXX AS X XXRVXXX</li>
-          <li id="four">ARTIFACT 04: XXBX USXX RXXXXRXX</li>
+          <li id="one"><div class="title">ARTIFACT 01: OPEN AFFILIATES</div>
+            <div id="oneDetail">
+              <p>Affiliate rewards for alternate front-ends.</p>
+              <p><a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a> </p>
+            </div>
+          </li>
+          <li id="two">ARTIFACT 02: XIXXGXXCE BXT</li>
+          <li id="three">ARTIFACT 03: XMXX FXX NXXX</li>
+          <li id="four">ARTIFACT 04: XXXXXX AS X XXRVXXX</li>
           <p>Built by <a href="https://twitter.com/jasonnov" target="_blank">Jason Novack</a> and <a href="https://twitter.com/itsbdell" target="_blank">Brian Dell</a>.</p>
           <br>
           <div class="social" id="socialMobile">
