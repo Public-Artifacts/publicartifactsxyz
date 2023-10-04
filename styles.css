@@ -72,15 +72,23 @@ li p a:hover {
   font-weight:600;
 }
 
-#zero .title {
+.title {
   cursor: pointer;
 }
 
-#zero .title:hover {
+.title:hover {
   font-weight: 850;
 }
 
 #zeroDetail {
+  display: none;
+  margin:0.5rem 0;
+  padding:0.5rem 0;
+  border-top:3px #191BA9 solid;
+  border-bottom:3px #191BA9 solid;
+}
+
+#oneDetail {
   display: none;
   margin:0.5rem 0;
   padding:0.5rem 0;
