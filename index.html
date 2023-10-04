@@ -20,22 +20,18 @@
       window.onload = function () {
         document.getElementById('zero').getElementsByClassName('title')[0].addEventListener('click', () => {
           if (document.getElementById('zeroDetail').style.display == '' || document.getElementById('zeroDetail').style.display == 'none') {
-            document.getElementById('zero').getElementsByClassName('title')[0].style.fontWeight = 850;
             document.getElementById('zeroDetail').style.display = 'block';
             document.getElementById('oneDetail').style.display = 'none';
           } else {
-            document.getElementById('zero').getElementsByClassName('title')[0].style.fontWeight = 700;
             document.getElementById('zeroDetail').style.display = 'none';
           };
         }, false);
 
         document.getElementById('one').getElementsByClassName('title')[0].addEventListener('click', () => {
           if (document.getElementById('oneDetail').style.display == '' || document.getElementById('oneDetail').style.display == 'none') {
-            document.getElementById('one').getElementsByClassName('title')[0].style.fontWeight = 850;
             document.getElementById('oneDetail').style.display = 'block';
             document.getElementById('zeroDetail').style.display = 'none';
           } else {
-            document.getElementById('one').getElementsByClassName('title')[0].style.fontWeight = 700;
             document.getElementById('oneDetail').style.display = 'none';
           };
         }, false);
@@ -62,13 +58,13 @@
       <section>
         <div>
           <p id="desc">A social technology studio exploring community dynamics and public goods.</p>
-          <li id="zero"><div class="title" onmouseover="style.fontWeight='850'">ARTIFACT 00: CODEBACKS</div>
+          <li id="zero"><div class="title">ARTIFACT 00: CODEBACKS</div>
             <div id="zeroDetail">
               <p>An on-chain citation standard for open-source code.</p>
               <p><a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a> | <a href="https://etherscan.io/address/0xae033e6811854e64fbad475ee3af7c94dcd2f01b" target="_blank" >EXAMPLE</a></p>
             </div>
           </li>
-          <li id="one"><div class="title" onmouseover="style.fontWeight='850'">ARTIFACT 01: OPEN AFFILIATES</div>
+          <li id="one"><div class="title">ARTIFACT 01: OPEN AFFILIATES</div>
             <div id="oneDetail">
               <p>Affiliate rewards for alternate front-ends.</p>
               <p><a href="https://mirror.xyz/publicartifacts.eth/CgjqE86lbdRHsz_kL2WbDZeW6YjL0Z0tL8rldJnKqWc" target="_blank" >POST</a> | <a href="https://github.com/Public-Artifacts/codebacks" target="_blank" >CODE</a> </p>

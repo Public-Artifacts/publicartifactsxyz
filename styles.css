@@ -76,6 +76,10 @@ li p a:hover {
   cursor: pointer;
 }
 
+.title:hover {
+  font-weight: 850;
+}
+
 #zeroDetail {
   display: none;
   margin:0;
